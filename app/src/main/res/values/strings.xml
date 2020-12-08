@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">uploading_from_firebase</string>
+    <string name="welcome">Welcome to Expert-Level</string>
+    <string name="getstarted">Get Started</string>
+
+    //otp screen
+    <string name="code">CO\nDE</string>
+    <string name="verification">Verification</string>
+    <string name="description">Enter one time password sent to\n+91 91234</string>
+    <string name="verify">VERIFY CODE</string>
+
+    // hint
+    <string name="Fullname">Full Name</string>
+    <string name="Username">UserName</string>
+    <string name="Email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="phone">Mobile Number</string>
+    <string name="Password">Password</string>
+    <string name="Confirmpassword">Confirm Password</string>
+
+    //gender
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+
+    //batches
+    <string name="Batch1">Batch 1</string>
+    <string name="Batch2">Batch 2</string>
+    <string name="Batch3">Batch 3</string>
+    <string name="selectbatches">select the batch</string>
+
+    <string name="LOGIN">LOGIN</string>
+    <string name="signup">SIGNUP</string>
+
+    <string name="Orconnectwith">Or connect with</string>
+    <string name="alreadyuser">Already a User</string>
+    <string name="mobile">Mobile No</string>
+
+</resources>

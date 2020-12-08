@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".common.User_registration2"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="150dp"
+        >
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:id="@+id/registration_backbutton"
+            android:padding="5dp"
+            android:src="@drawable/back"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            >
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/country_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ccp_autoDetectCountry="true"
+                app:ccp_showFlag="true"
+                app:ccp_showNameCode="true"
+                android:padding="5dp"
+                app:ccp_showFullName="true"
+                app:ccp_areaCodeDetectedCountry="true"
+                app:ccp_countryAutoDetectionPref="LOCALE_NETWORK"
+                android:background="@drawable/black_border"
+                />
+
+            <EditText
+                android:id="@+id/phone_no"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_baseline_phone_24"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="NEXT"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:elevation="5dp"
+            />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/LOGIN"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:background="#00000000"
+            android:textColor="@android:color/black"
+            android:visibility="invisible"
+            android:elevation="5dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
