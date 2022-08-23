@@ -12,3 +12,10 @@ It is an android application developed using java and xml in android studio for 
 
 ## Expert Level
 In this level, Users will get the MCQ questions based on the human cells. And based on the results from the user, we will analyze and find the ground truth
+
+## Technology User
+* Java
+* XML
+
+## Setup
+In order to run this project in android studio, clone this project and open in android studio(latest version is suggested) and try to run the app in emulator or else using USB debugging. If you're using emulator, make sure that android version should be higher or equal to Oreo (8.1).
